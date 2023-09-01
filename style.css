@@ -14,8 +14,8 @@ input{
     display: block;
     margin-bottom: 12px;
     border: 2px solid #a8a2a2;
-    border-radius: 4px;
-    width: 350px;
+    border-radius: 8px;
+    width: 450px;
     height: 48px;
 
 }
@@ -24,13 +24,14 @@ form{
     width: 70%;
     margin: 16px;
     padding: 20px;
+    border-radius: 8px;
 }
 button{
     background-color: hsl(154, 59%, 51%);
     opacity: 0.9;
     border: 2px solid #a8a2a2;
-    border-radius: 4px;
-    width: 350px;
+    border-radius: 8px;
+    width: 450px;
     height: 48px;
     cursor: pointer;
 }
@@ -45,11 +46,15 @@ button{
     height: 48px;
     font-weight: bold;
     text-align: center;
-    margin-left: 25px;
+    margin-left: 35px;
     font-family: Arial;
 }
 h1{
     color: white;
-    font-weight: bolder;
+    font-size: xx-large;
     font-family: Arial;
+}
+p{
+    color: white;
+    font-size: xx-large;
 }
