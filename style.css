@@ -3,7 +3,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 200px;
-    max-width: 100vw;
+    max-width: 100%;
     gap: 100px;
     background-color:  hsl(0, 100%, 74%);
     background-image: url(./images/bg-intro-desktop.png);
@@ -18,7 +18,7 @@ input{
     margin-bottom: 12px;
     border: 2px solid #a8a2a2;
     border-radius: 8px;
-    width: 450px;
+    width: 100%;
     height: 48px;
 
 }
@@ -27,7 +27,7 @@ form{
     width: 90%;
     margin: 16px;
     padding: 25px;
-    border-radius: 8px;
+    /* border-radius: 8px; */
 }
 button{
     background-color: hsl(154, 59%, 51%);
@@ -44,22 +44,22 @@ button{
 #head{
     background-color: hsl(228, 45%, 44%);
     border: 2px solid #a8a2a2;
-    border-radius: 4px;
-    width: 550px;
-    height: 75px;
-    font-size: x-large;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
     text-align: center;
-    margin-right: 100px;
-    margin-left: 25px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: Arial;
     margin-bottom: 30px;
 }
 h1{
     color: white;
-    font-size: xx-large;
+    font-size: 80px;
     font-family: Arial;
 }
 p{
     color: white;
-    font-size: xx-large;
+    font-size: 35px;
 }
